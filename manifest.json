@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tabs to text",
+  "description": "This extension copys all the urls of open tabs of a given window to text (either json, or csv).",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}
