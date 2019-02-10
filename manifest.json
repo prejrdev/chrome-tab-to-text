@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Tabs to text",
-  "description": "This extension copys all the urls of open tabs of a given window to text (either json, or csv).",
+  "description": "This extension copys the urls of all the open tabs for a given window to either text, clipboard, json or csv.",
   "version": "0.1",
 
   "browser_action": {
@@ -12,6 +12,7 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "storage"
+    "storage",
+    "clipboardWrite"
   ]
 }
